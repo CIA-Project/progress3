@@ -367,10 +367,12 @@ button:focus {
 ============================================================================================ */
 
 /* Tabel  */
-	table {
+	.table-box {
 	  border-collapse: collapse;
 	  border-spacing: 0;
-	  width: 90%;
+	  height: 300pt;
+	  width: 90%;	  
+	  overflow-y: scroll;
 	  border: 1px solid #ddd;
 	  margin-left : 80px;	  	  
 	  font-family: "Poppins", sans-serif;
@@ -383,6 +385,8 @@ button:focus {
 	}
 	
 	th{
+	  position: sticky;
+	  top: 0;
 	  background-color: #60bc0f;
 	  color: white;
 	}
